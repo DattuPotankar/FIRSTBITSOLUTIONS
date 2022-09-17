@@ -1,11 +1,19 @@
-.container {
+.container{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.grid-box {
     background-color: aqua;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 .box {
-    border: 2px solid black;
     border-width: 1px;
+    border: 2px solid black;
+}
+p .headings{
+    padding-left: 15px;
 }
 .list-square {
     list-style-type: square;
