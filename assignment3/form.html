@@ -12,25 +12,44 @@
 </head>
 
 <body>
-    <form>
-        <div class="container">
-            <div class="dp-3">
+    <div class="container mb-3 " style="border:1px solid gray ;">
+        <form class="mt-3">
+            <button type="button" class="btn btn-primary btn-sm position-relative">
+                Email
+                <span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                    <span class="visually-hidde" >30</span>
+                </span>
+            </button>
+            <div class="mb-3">
                 <label for="InputEmail" class="col-form-label">Email address</label>
-                <input type="email" class="form-control" id="InputEmail" placeholder="name123@gmail.com" aria-describedby="Emailhelp">
+                <input type="email" class="form-control" id="InputEmail" placeholder="name123@gmail.com"
+                    aria-describedby="Emailhelp">
                 <div id="Emailhelp" class="form-text"> We'll never share your email with anyone else.</div>
             </div>
-            <div class="dp-3">
+            <div class="mb-3">
                 <label for="InputPassword" class="col-form-label">Password</label>
                 <input type="password" class="form-control" id="InputPassword" placeholder="">
             </div><br>
-            <div class="dp-3 form-check">
+            <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="Check1">
                 <label class="form-check-label-" for="Check1">Check me out</label>
             </div><br>
-            <button type="submit" class="btn btn-success btn-sm">Log in</button>
-            <button type="submit" class="btn btn-outline-info btn-sm">Sign up</button>
-        </div>
-    </form>
+            <button type="submit" class="btn btn-success btn-sm mb-3">Log in</button>
+            <button type="submit" class="btn btn-outline-info btn-sm mb-3">Sign up</button>
+        </form>
+    </div>
+    <!-- <div class="container " style="border: 1px solid gray;">
+        <form>
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="Email" id="email" class="form-control mb-3">
+
+            <label for="password" class="form-label">Password</label>
+            <input type="password" name="pwd" id="password" class="form-control mb-3">
+
+            <button class="btn btn-primary">Login</button>
+        </form>
+    </div> -->
 </body>
 
 </html>
